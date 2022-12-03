@@ -1,0 +1,53 @@
+.main-slider{
+    width: 100%;
+    max-width: 1340px;
+    margin:  0 auto;
+    .main-slider-item{
+        border-radius: 15px;
+        max-width: 1340px;
+        height: 700px;
+        background: url("https://images.solecollector.com/complex/images/c_crop,h_1125,w_2000,x_0,y_526/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/w8qprp9ceitlm4xhikgq/air-jordan-4-retro-unc-ct8527-400-pair");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .main-slider-details{
+            width: 350px;
+            margin: 65px;
+            border-radius: 15px;
+            padding: 25px;
+            transition: .3s all linear;
+            &:hover{
+                background: rgba($color: #000000, $alpha: .5);
+            }
+            h3{
+                color : white;
+                font-size: 25px;
+            }
+            a{
+                font-size: 20px;
+                cursor: pointer;
+                color : white;
+                font-weight: 700;
+                text-decoration: none;
+            }
+        }
+    }
+    .item-2 {
+        background: url("https://sneakernews.com/wp-content/uploads/2021/04/air-jordan-4-lightning-CT8527-700-release-date-8.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .item-3{
+        .main-slider-details{
+            h3, a {
+                color: #000000;
+                }
+        }
+        background: url("http://cdn.shopify.com/s/files/1/2999/5106/products/True-to-Sole-Air-Jordan-1-Mid-Gym-Red-Black-White-554724-122-001.png?v=1628988313");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

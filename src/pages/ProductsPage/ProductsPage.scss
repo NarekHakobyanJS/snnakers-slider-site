@@ -1,0 +1,21 @@
+.products-page{
+    .products-page-main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+        h1{
+            margin: 0;
+        }
+        input {
+            width: 200px;
+            padding: 8px;
+        }
+    }
+    .product-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

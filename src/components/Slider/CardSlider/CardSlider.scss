@@ -1,0 +1,25 @@
+.card-slider {
+    width: 100%;
+    max-width: 1340px;
+    height: 800px;
+    margin: 0 auto;
+
+    .card-slider-item {
+        max-width: 320px;
+        cursor: pointer;
+        height: 400px;
+        border-radius: 15px;
+        margin: 0 55px;
+        background: url("https://images.solecollector.com/complex/images/c_crop,h_1125,w_2000,x_0,y_526/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/w8qprp9ceitlm4xhikgq/air-jordan-4-retro-unc-ct8527-400-pair");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: .3s all linear;
+
+        &:hover {
+            -webkit-box-shadow: 9px 9px 14px 0px rgba(34, 60, 80, 0.4);
+            -moz-box-shadow: 9px 9px 14px 0px rgba(34, 60, 80, 0.4);
+            box-shadow: 9px 9px 14px 0px rgba(34, 60, 80, 0.4);
+        }
+    }
+}

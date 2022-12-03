@@ -1,0 +1,11 @@
+.footer {
+    background: #61dafb;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    -webkit-box-shadow: 0 10px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 10px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 10px 8px 0px rgba(34, 60, 80, 0.2);
+}
